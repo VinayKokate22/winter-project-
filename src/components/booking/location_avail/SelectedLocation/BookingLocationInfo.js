@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./bookinglocationinfo.css";
+import { useNavigate } from "react-router-dom";
 
 const BookingLocationInfo = () => {
   const photos = [
@@ -25,6 +26,11 @@ const BookingLocationInfo = () => {
     setslidenumber(i);
     setopenslider(true);
   };
+  const navigate = useNavigate();
+  const handlepayment = () => {
+    navigate("/booking/location/selected/payment");
+  };
+
   return (
     <div className="bookinglocationdetails_flex">
       {openslider && (
@@ -58,14 +64,14 @@ const BookingLocationInfo = () => {
         </div>
         <div className="bookinglocationdetails_opinion">
           <div className="bookinglocationdetails_opinion_card">
-            <div>
+            <div className="bookinglocationdetails_opinion_card_name">
               <img
                 src="https://static.parclick.com/assets/img/icons/icon-user-sprite.svg#pck"
                 alt=""
               />
+              <h4>name</h4>
             </div>
             <div>
-              <h4>name</h4>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
                 soluta veritatis voluptas voluptatum nobis laboriosam facere
@@ -75,14 +81,14 @@ const BookingLocationInfo = () => {
             </div>
           </div>
           <div className="bookinglocationdetails_opinion_card">
-            <div>
+            <div className="bookinglocationdetails_opinion_card_name">
               <img
                 src="https://static.parclick.com/assets/img/icons/icon-user-sprite.svg#pck"
                 alt=""
               />
+              <h4>name</h4>
             </div>
             <div>
-              <h4>name</h4>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
                 soluta veritatis voluptas voluptatum nobis laboriosam facere
@@ -92,14 +98,14 @@ const BookingLocationInfo = () => {
             </div>
           </div>
           <div className="bookinglocationdetails_opinion_card">
-            <div>
+            <div className="bookinglocationdetails_opinion_card_name">
               <img
                 src="https://static.parclick.com/assets/img/icons/icon-user-sprite.svg#pck"
                 alt=""
               />
+              <h4>name</h4>
             </div>
             <div>
-              <h4>name</h4>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
                 soluta veritatis voluptas voluptatum nobis laboriosam facere
@@ -131,7 +137,7 @@ const BookingLocationInfo = () => {
               <p> the respective date</p>
             </div>
           </div>
-          <button>the price</button>
+          <button onClick={handlepayment}>5$</button>
         </div>
       </div>
     </div>

@@ -1,0 +1,121 @@
+.payment_section {
+  height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.628), rgba(0, 0, 0, 0.195)),
+    url(https://img.freepik.com/free-photo/young-happy-business-woman-walking-out-her-car_1303-27268.jpg?w=1060&t=st=1676235322~exp=1676235922~hmac=59f7648783f25b7e6348d46438b416cf3314a0ca4e77b0de1de4ebf824da3e93);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.payment_div1 {
+  display: flex;
+  justify-content: center;
+  background-color: var(--colortheme);
+  padding: 1rem;
+  gap: 2rem;
+  align-items: center;
+  color: white;
+}
+.payment_div1 .line {
+  height: 0.5rem;
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+}
+.fa-circle-check,
+.fa-circle-notch {
+  margin: 0 1rem;
+}
+.payment_div2 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  background-color: rgba(0, 0, 0, 0.877);
+}
+.payment_mydetails {
+  min-width: 50%;
+  background-color: rgb(20, 20, 20);
+  padding: 2rem;
+}
+.payment_summary {
+  background-color: rgb(31, 31, 31);
+  max-width: 25%;
+  padding: 2rem;
+}
+.payment_mydetails_form {
+  display: flex;
+  flex-direction: column;
+}
+.payment_mydetails_form input {
+  background-color: rgb(55, 55, 55);
+  border: none;
+  margin: 1rem 0;
+  padding: 1rem 0.5rem;
+  border-bottom: 2px solid var(--colortheme);
+  font-size: 1.1rem;
+  color: white;
+}
+.paymentbutton {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  left: 0;
+  background-color: var(--colortheme);
+  padding: 1rem;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+@media screen and (max-width: 650px) {
+  .payment_div2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    flex-direction: column;
+  }
+
+  .payment_summary {
+    max-width: 100%;
+    padding: 2rem;
+  }
+  .paymentbutton {
+    padding: 0.5rem;
+
+    font-weight: 600;
+  }
+  .payment_div1 {
+    display: flex;
+    justify-content: center;
+    background-color: var(--colortheme);
+    padding: 0.5rem;
+    gap: 0.5rem;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+  }
+  .fa-circle-check,
+  .fa-circle-notch {
+    margin-right: 0.5rem;
+    display: inline;
+    font-size: 1rem;
+  }
+  .payment_div1 .line {
+    height: 0.3rem;
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+  }
+  .payment_mydetails_form input {
+    margin: 0.5rem 0;
+    padding: 0.8rem 0.5rem;
+
+    font-size: 0.8rem;
+  }
+}

@@ -1,22 +1,27 @@
 .herocontainer {
   display: flex;
   flex-direction: column;
+
   width: 90%;
   margin: 0 auto;
 }
 .timepass {
   color: transparent;
-  font-family: "Syne", sans-serif;
+  transform: scaleY(1.2);
+  /* display: inline; */
   -webkit-text-stroke: 1px #fff;
-  font-size: 4rem;
+  font-family: "Syne", sans-serif;
+  font-size: 3.5rem;
 }
 .title {
   margin: 4rem 0 0 0rem;
-  color: rgb(210, 210, 210);
+  color: rgb(241, 241, 241);
 }
 
 .title h2 {
   font-size: 7rem;
+  /* -webkit-transform: scaleX(0.5); */
+  /* transform: scaleY(0.8); */
   font-weight: 800;
   margin-bottom: 1rem;
   text-transform: uppercase;
@@ -80,4 +85,39 @@
 .book_button button:hover {
   background-color: black;
   -webkit-text-stroke: 1px #ffffff;
+}
+@media screen and (max-width: 1100px) {
+  .title h2 {
+    font-size: 5rem;
+  }
+  .timepass {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .title h2 {
+    font-size: 4rem;
+  }
+  .timepass {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .title h2 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  .timepass {
+    font-size: 2rem;
+  }
+  .title h3 {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.439);
+    margin-bottom: 1rem;
+  }
+  .title {
+    margin: 1rem 0 0 0rem;
+  }
+  .herocontainer {
+  }
 }

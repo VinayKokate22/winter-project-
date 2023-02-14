@@ -3,8 +3,8 @@ import "./services.css";
 
 const Services = () => {
   return (
-    <div className="services" data-aos="fade-up">
-      <div className="services_title" data-aos="fade-up">
+    <div className="services">
+      <div className="services_title">
         <h2>Our services</h2>
       </div>
       <div className="services_flex" data-aos="fade-up">
@@ -17,7 +17,7 @@ const Services = () => {
             voluptas aspernatur.
           </p>
           {/* need to add the anchor tag */}
-          <a href="">learn more</a>
+          {/* <a href="">learn more</a> */}
         </div>
         <div className="service_card">
           <h3>lorem</h3>
@@ -28,7 +28,7 @@ const Services = () => {
             voluptas aspernatur.
           </p>
           {/* need to add the anchor tag */}
-          <a href="">learn more</a>
+          {/* <a href="">learn more</a> */}
         </div>
         <div className="service_card">
           <h3>lorem</h3>
@@ -39,7 +39,7 @@ const Services = () => {
             voluptas aspernatur.
           </p>
           {/* need to add the anchor tag */}
-          <a href="">learn more</a>
+          {/* <a href="">learn more</a> */}
         </div>
       </div>
     </div>

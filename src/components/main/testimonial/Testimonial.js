@@ -6,10 +6,10 @@ const Testimonial = () => {
   const image = reviews[index].img;
   const text = reviews[index].text;
   return (
-    <div className="testimonials" data-aos="fade-up">
-      <h2 className="review-title " data-aos="fade-up">
-        Why parkilk ?
-      </h2>
+    <div className="testimonials">
+      <div className="review-title ">
+        <h2 data-aos="fade-up">Why parkilk ?</h2>
+      </div>
       <article className="review" data-aos="fade-up">
         <button
           className="btn prev"

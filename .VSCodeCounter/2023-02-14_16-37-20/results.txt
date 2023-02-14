@@ -1,0 +1,100 @@
+Date : 2023-02-14 16:37:20
+Directory : d:\Coding\git git hub complete course\winter project
+Total : 47 files,  32839 codes, 121 comments, 289 blanks, all 33249 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          2 |     29,912 |          0 |          2 |     29,914 |
+| CSS        |         18 |      1,454 |        102 |        127 |      1,683 |
+| JavaScript |         25 |      1,395 |         19 |        124 |      1,538 |
+| HTML       |          1 |         40 |          0 |          3 |         43 |
+| Markdown   |          1 |         38 |          0 |         33 |         71 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                   |         47 |     32,839 |        121 |        289 |     33,249 |
+| . (Files)                                                                                                                           |          3 |     29,950 |          0 |         35 |     29,985 |
+| public                                                                                                                              |          1 |         40 |          0 |          3 |         43 |
+| src                                                                                                                                 |         43 |      2,849 |        121 |        251 |      3,221 |
+| src (Files)                                                                                                                         |          4 |        102 |         27 |          8 |        137 |
+| src\components                                                                                                                      |         29 |      2,131 |         88 |        201 |      2,420 |
+| src\components\booking                                                                                                              |          9 |        836 |         25 |         58 |        919 |
+| src\components\booking\bookingfinal                                                                                                 |          1 |         48 |          3 |         10 |         61 |
+| src\components\booking\date_menu                                                                                                    |          2 |        247 |         11 |         20 |        278 |
+| src\components\booking\location_avail                                                                                               |          6 |        541 |         11 |         28 |        580 |
+| src\components\booking\location_avail (Files)                                                                                       |          2 |         90 |          1 |         10 |        101 |
+| src\components\booking\location_avail\SelectedLocation                                                                              |          2 |        254 |          8 |         12 |        274 |
+| src\components\booking\location_avail\locationcard                                                                                  |          2 |        197 |          2 |          6 |        205 |
+| src\components\footer                                                                                                               |          2 |        187 |          0 |         45 |        232 |
+| src\components\home                                                                                                                 |          4 |        179 |         21 |         21 |        221 |
+| src\components\home (Files)                                                                                                         |          2 |         37 |         14 |          9 |         60 |
+| src\components\home\hero                                                                                                            |          2 |        142 |          7 |         12 |        161 |
+| src\components\main                                                                                                                 |         12 |        724 |         33 |         52 |        809 |
+| src\components\main (Files)                                                                                                         |          2 |         96 |          2 |         10 |        108 |
+| src\components\main\contact_us                                                                                                      |          2 |        223 |         10 |         14 |        247 |
+| src\components\main\how_it_works                                                                                                    |          2 |        107 |          0 |          5 |        112 |
+| src\components\main\our_services                                                                                                    |          2 |        146 |         17 |         12 |        175 |
+| src\components\main\scan                                                                                                            |          2 |         67 |          4 |          8 |         79 |
+| src\components\main\testimonial                                                                                                     |          2 |         85 |          0 |          3 |         88 |
+| src\components\navbar                                                                                                               |          2 |        205 |          9 |         25 |        239 |
+| src\pages                                                                                                                           |         10 |        616 |          6 |         42 |        664 |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                            | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Coding\git git hub complete course\winter project\README.md                                                                      | Markdown   |         38 |          0 |         33 |         71 |
+| d:\Coding\git git hub complete course\winter project\package-lock.json                                                              | JSON       |     29,867 |          0 |          1 |     29,868 |
+| d:\Coding\git git hub complete course\winter project\package.json                                                                   | JSON       |         45 |          0 |          1 |         46 |
+| d:\Coding\git git hub complete course\winter project\public\index.html                                                              | HTML       |         40 |          0 |          3 |         43 |
+| d:\Coding\git git hub complete course\winter project\src\App.css                                                                    | CSS        |         16 |         23 |          1 |         40 |
+| d:\Coding\git git hub complete course\winter project\src\App.js                                                                     | JavaScript |         76 |          0 |          3 |         79 |
+| d:\Coding\git git hub complete course\winter project\src\components\booking\bookingfinal\Locationdetails.js                         | JavaScript |         48 |          3 |         10 |         61 |
+| d:\Coding\git git hub complete course\winter project\src\components\booking\date_menu\DateMenu.js                                   | JavaScript |         90 |          0 |          5 |         95 |
+| d:\Coding\git git hub complete course\winter project\src\components\booking\date_menu\datemenu.css                                  | CSS        |        157 |         11 |         15 |        183 |
+| d:\Coding\git git hub complete course\winter project\src\components\booking\location_avail\Location.js                              | JavaScript |         48 |          0 |          7 |         55 |
+| d:\Coding\git git hub complete course\winter project\src\components\booking\location_avail\SelectedLocation\BookingLocationInfo.js  | JavaScript |        144 |          0 |          4 |        148 |
+| d:\Coding\git git hub complete course\winter project\src\components\booking\location_avail\SelectedLocation\bookinglocationinfo.css | CSS        |        110 |          8 |          8 |        126 |
+| d:\Coding\git git hub complete course\winter project\src\components\booking\location_avail\location.css                             | CSS        |         42 |          1 |          3 |         46 |
+| d:\Coding\git git hub complete course\winter project\src\components\booking\location_avail\locationcard\Location_card.js            | JavaScript |        129 |          0 |          3 |        132 |
+| d:\Coding\git git hub complete course\winter project\src\components\booking\location_avail\locationcard\locationcard.css            | CSS        |         68 |          2 |          3 |         73 |
+| d:\Coding\git git hub complete course\winter project\src\components\footer\Footer.js                                                | JavaScript |         82 |          0 |         22 |        104 |
+| d:\Coding\git git hub complete course\winter project\src\components\footer\footer.css                                               | CSS        |        105 |          0 |         23 |        128 |
+| d:\Coding\git git hub complete course\winter project\src\components\home\Home.js                                                    | JavaScript |         16 |          0 |          3 |         19 |
+| d:\Coding\git git hub complete course\winter project\src\components\home\hero\Hero.js                                               | JavaScript |         30 |          3 |          4 |         37 |
+| d:\Coding\git git hub complete course\winter project\src\components\home\hero\hero.css                                              | CSS        |        112 |          4 |          8 |        124 |
+| d:\Coding\git git hub complete course\winter project\src\components\home\home.css                                                   | CSS        |         21 |         14 |          6 |         41 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\Main.js                                                    | JavaScript |         17 |          0 |          4 |         21 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\contact_us\Contact.js                                      | JavaScript |         62 |          0 |          3 |         65 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\contact_us\contact.css                                     | CSS        |        161 |         10 |         11 |        182 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\how_it_works\Works.js                                      | JavaScript |         49 |          0 |          2 |         51 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\how_it_works\works.css                                     | CSS        |         58 |          0 |          3 |         61 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\main.css                                                   | CSS        |         79 |          2 |          6 |         87 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\our_services\Services.js                                   | JavaScript |         47 |          0 |          3 |         50 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\our_services\services.css                                  | CSS        |         99 |         17 |          9 |        125 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\scan\Scan.js                                               | JavaScript |         30 |          4 |          3 |         37 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\scan\scan.css                                              | CSS        |         37 |          0 |          5 |         42 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\testimonial\Testimonial.js                                 | JavaScript |         48 |          0 |          2 |         50 |
+| d:\Coding\git git hub complete course\winter project\src\components\main\testimonial\reviews.js                                     | JavaScript |         37 |          0 |          1 |         38 |
+| d:\Coding\git git hub complete course\winter project\src\components\navbar\Topbar.js                                                | JavaScript |         95 |          2 |         11 |        108 |
+| d:\Coding\git git hub complete course\winter project\src\components\navbar\topbar.css                                               | CSS        |        110 |          7 |         14 |        131 |
+| d:\Coding\git git hub complete course\winter project\src\index.js                                                                   | JavaScript |          9 |          0 |          3 |         12 |
+| d:\Coding\git git hub complete course\winter project\src\pages\Booking.js                                                           | JavaScript |         15 |          1 |          4 |         20 |
+| d:\Coding\git git hub complete course\winter project\src\pages\Bookingfinal.js                                                      | JavaScript |         96 |          1 |         11 |        108 |
+| d:\Coding\git git hub complete course\winter project\src\pages\Landing.js                                                           | JavaScript |         15 |          0 |          3 |         18 |
+| d:\Coding\git git hub complete course\winter project\src\pages\Login.js                                                             | JavaScript |         66 |          0 |          4 |         70 |
+| d:\Coding\git git hub complete course\winter project\src\pages\Payment.js                                                           | JavaScript |         77 |          0 |          6 |         83 |
+| d:\Coding\git git hub complete course\winter project\src\pages\Signup.js                                                            | JavaScript |         68 |          1 |          2 |         71 |
+| d:\Coding\git git hub complete course\winter project\src\pages\booking.css                                                          | CSS        |          0 |          0 |          2 |          2 |
+| d:\Coding\git git hub complete course\winter project\src\pages\bookingfinal.css                                                     | CSS        |         21 |          3 |          2 |         26 |
+| d:\Coding\git git hub complete course\winter project\src\pages\login.css                                                            | CSS        |        141 |          0 |          3 |        144 |
+| d:\Coding\git git hub complete course\winter project\src\pages\payment.css                                                          | CSS        |        117 |          0 |          5 |        122 |
+| d:\Coding\git git hub complete course\winter project\src\setupTests.js                                                              | JavaScript |          1 |          4 |          1 |          6 |
+| Total                                                                                                                               |            |     32,839 |        121 |        289 |     33,249 |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

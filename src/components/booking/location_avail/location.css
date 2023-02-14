@@ -3,6 +3,8 @@
   background-color: rgb(20, 21, 21);
   padding-top: 1rem;
   color: rgb(215, 215, 215);
+  gap: 1rem;
+  flex-grow: 1;
 }
 
 .location_option {
@@ -22,6 +24,22 @@
 }
 .location_map {
   flex: 3;
-  /* background-image: url(https://c8.alamy.com/comp/R07NG5/urban-vector-city-map-of-paris-france-R07NG5.jpg);
-  background-size: cover; */
+  background-image: url(https://c8.alamy.com/comp/R07NG5/urban-vector-city-map-of-paris-france-R07NG5.jpg);
+  background-size: cover;
+}
+@media screen and (max-width: 1100px) {
+  .location_flex {
+    flex-direction: column-reverse;
+  }
+  .showmap_button {
+    background-color: var(--colortheme);
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 650px) {
 }

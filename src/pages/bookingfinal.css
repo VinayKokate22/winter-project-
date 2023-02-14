@@ -1,0 +1,25 @@
+/* .rem_height {
+  height: 100vh;
+} */
+.booking_page {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.52),
+      rgba(255, 255, 255, 0.218)
+    ),
+    url(https://img.freepik.com/free-photo/young-happy-business-woman-walking-out-her-car_1303-27268.jpg?w=1060&t=st=1676235322~exp=1676235922~hmac=59f7648783f25b7e6348d46438b416cf3314a0ca4e77b0de1de4ebf824da3e93);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 650px) {
+  .booking_page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0)),
+      url(https://img.freepik.com/free-photo/young-happy-business-woman-walking-out-her-car_1303-27268.jpg?w=1060&t=st=1676235322~exp=1676235922~hmac=59f7648783f25b7e6348d46438b416cf3314a0ca4e77b0de1de4ebf824da3e93);
+
+    background-position: right;
+  }
+}

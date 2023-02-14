@@ -1,7 +1,6 @@
 import React from "react";
 import "./datemenu.css";
 import { DateRange } from "react-date-range";
-
 import { useState } from "react";
 import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
@@ -39,11 +38,11 @@ const DateMenu = () => {
       </div>
 
       <div className="datemenu_date ">
-        <div className="datemenu_date_container">
-          <i
-            className="fa-solid fa-calendar-days"
-            onClick={() => setopenDate(!openDate)}
-          ></i>
+        <div
+          className="datemenu_date_container"
+          onClick={() => setopenDate(!openDate)}
+        >
+          <i className="fa-solid fa-calendar-days"></i>
           <span className="headersearchtext">{`${format(
             date[0].startDate,
             "dd/MM/yyyy"
@@ -62,7 +61,7 @@ const DateMenu = () => {
       </div>
       <div className="datemenu_duration">
         <div className="datemenu_duration_display">
-          <span>{`Duration :${Duration} min`}</span>
+          <span>{`Duration : ${Duration} min`}</span>
         </div>
         <div className="datemenu_duration_container">
           <button

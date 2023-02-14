@@ -2,6 +2,7 @@ import React from "react";
 import DateMenu from "../components/booking/date_menu/DateMenu";
 import Topbar from "../components/navbar/Topbar";
 import Location from "../components/booking/location_avail/Location";
+import "./bookingfinal.css";
 
 import { DateRange } from "react-date-range";
 
@@ -49,12 +50,9 @@ const Bookingfinal = () => {
           />
         </div>
 
-        <div className="datemenu_date ">
+        <div className="datemenu_date " onClick={() => setopenDate(!openDate)}>
           <div className="datemenu_date_container">
-            <i
-              className="fa-solid fa-calendar-days"
-              onClick={() => setopenDate(!openDate)}
-            ></i>
+            <i className="fa-solid fa-calendar-days"></i>
             <span className="headersearchtext">{`${format(
               date[0].startDate,
               "dd/MM/yyyy"
@@ -100,9 +98,8 @@ const Bookingfinal = () => {
           </button>
         </div>
       </section>
-      <div className="rem_height">
-        <Location />
-      </div>
+
+      <Location />
     </div>
   );
 };

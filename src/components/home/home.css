@@ -1,9 +1,40 @@
+/* url:https://img.freepik.com/free-photo/young-handsome-man-glasses-showing-advertisement-smiling-pointing-fingers-left-making-announcement-standing-against-blue-background_1258-65399.jpg?w=1060&t=st=1676235031~exp=1676235631~hmac=0c19ccdb2cddb03e9427c66d4b43859f8f81bf7a172e07c05e45f1d32aa8927a */
 .heropage {
-  height: 100vh;
+  min-height: 100vh;
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.628), rgba(0, 0, 0, 0.195)),
-    /* url(https://images.unsplash.com/photo-1536667842290-7602f6a43a2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); */
-      url(https://img.freepik.com/free-photo/happy-elegant-woman-sitting-car-with-fastened-seatbelt-driving-work-female-driver-smiling-camera-looking-out-window_197531-30470.jpg?w=1060&t=st=1676125030~exp=1676125630~hmac=b524b29c5cea34856c5d6dcfa1a6ac85195cd5ffaea0bc6fa356fda3db85405f);
+    url(https://img.freepik.com/free-photo/young-happy-business-woman-walking-out-her-car_1303-27268.jpg?w=1060&t=st=1676235322~exp=1676235922~hmac=59f7648783f25b7e6348d46438b416cf3314a0ca4e77b0de1de4ebf824da3e93);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
+
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: space-evenly; */
+  /* "https://static.parclick.com/assets/img/backgrounds/home/jumbotron/jumbotron-2-lg.jpg" */
+  /* video {
+  position: absolute;
+  width: 100%;
+  
+  object-fit: cover;
+  height: 100vh;
+  z-index: -1;
+  */
+}
+@media screen and (max-width: 1100px) {
+  .heropage {
+    min-height: fit-content;
+    background-position: right;
+
+    /* background-image: none; */
+  }
+}
+@media screen and (max-width: 650px) {
+  .heropage {
+    min-height: fit-content;
+    background-position: right;
+
+    /* background-image: none; */
+  }
 }

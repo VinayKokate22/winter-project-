@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Contact from "./components/main/contact_us/Contact";
 import Bookingfinal from "./pages/Bookingfinal";
 import Signup from "./pages/Signup";
+import Payment from "./pages/Payment";
 function App() {
   return (
     <div>
@@ -49,6 +50,22 @@ function App() {
             element={
               <div>
                 <Signup />
+              </div>
+            }
+          />
+          <Route
+            path="/booking/location/selected"
+            element={
+              <div>
+                <Booking />
+              </div>
+            }
+          />
+          <Route
+            path="/booking/location/selected/payment"
+            element={
+              <div>
+                <Payment />
               </div>
             }
           />

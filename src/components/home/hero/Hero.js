@@ -14,8 +14,7 @@ const Hero = () => {
         <div className="herocontainer">
           <div className="title" data-aos="fade-left">
             <h2>
-              Parking App <br /> <div className="timepass">For Advance</div>{" "}
-              Booking
+              Parking App <div className="timepass">For Advance</div> Booking
             </h2>
             <h3>Book car park now.</h3>
           </div>

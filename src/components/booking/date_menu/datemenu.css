@@ -1,13 +1,14 @@
 .datemenu_flex {
   display: flex;
-  /* justify-content: space-between; */
-  background-color: rgba(16, 16, 16, 0.332);
-  padding: 1rem 1rem;
+  justify-content: space-between;
+  /* background-color: rgba(16, 16, 16, 0.332); */
+  background-color: #66676dbc;
+  padding: 1.5rem 1rem;
   /* margin-bottom: 1rem; */
   /* box-shadow: 0 0 10px rgb(0, 0, 0); */
   gap: 1rem;
   border-radius: 5px;
-
+  font-size: 1.1rem;
   align-items: center;
   color: white;
 }
@@ -15,12 +16,10 @@
   padding: 0.5rem 1rem;
   width: 100%;
   border: none;
-
+  height: 100%;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.6);
-
-  font-size: 1.1rem;
-  height: 3rem;
+  font-size: 1rem;
   text-transform: capitalize;
   color: white;
 }
@@ -28,7 +27,8 @@
   color: white;
 }
 .datemenu_place {
-  flex: 1;
+  width: 100%;
+  height: 3rem;
 }
 .datemenu_searchButton button {
   /* width: 6rem; */
@@ -58,8 +58,8 @@
   align-items: center;
 }
 .datemenu_date {
-  flex: 1;
   background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
 
   padding: 0.5rem;
   border-radius: 5px;
@@ -74,25 +74,28 @@
   top: 55px;
   left: 0;
   /* padding: 4rem; */
-  box-shadow: 0px 100px 10000px black;
+  z-index: 1000;
+
+  box-shadow: 0px 10px 10000px black;
 }
 
 .datemenu_duration {
   display: flex;
   align-items: center;
-  flex: 1;
+  width: 100%;
   padding: 0.5rem;
+
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
+  justify-content: space-between;
 
   text-transform: capitalize;
   height: 3rem;
+  /* overflow-y: hidden; */
 }
 .datemenu_duration_display {
-  flex: 1;
 }
 .datemenu_duration_container {
-  flex: 1;
   display: flex;
   align-items: center;
 }
@@ -100,7 +103,7 @@
   background-color: transparent;
   color: white;
   border: none;
-  margin: 0 0.5rem;
+  /* margin: 0 0.5rem; */
   font-size: 1rem;
   cursor: pointer;
   padding: 0.5rem;
@@ -115,4 +118,65 @@
 .fa-calendar-days {
   font-size: 2rem;
   color: var(--colortheme);
+}
+@media screen and (max-width: 1100px) {
+  .datemenu_flex {
+    margin-bottom: 2rem;
+    gap: 0.5rem;
+  }
+
+  .datemenu_duration button {
+    margin: 0 0.2rem;
+
+    padding: 0.2rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .datemenu_flex {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .datemenu_flex .headersearchinput {
+    font-size: 0.9rem;
+  }
+
+  .datemenu_duration button {
+    margin: 0 0.2rem;
+
+    padding: 0.2rem;
+  }
+
+  .datemenu_flex > div {
+    height: 2rem;
+  }
+  .datemenu_searchButton {
+    width: 100%;
+  }
+  .datemenu_searchButton button {
+    /* width: 6rem; */
+    border-radius: 5px;
+  }
+  .datemenu_searchButton button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0rem;
+    height: 2rem;
+  }
+  .fa-calendar-days {
+    font-size: 1rem;
+  }
+  .rdrCalendarWrapper {
+    font-size: 10px !important;
+  }
+  .calender {
+    top: 2rem;
+    width: 100%;
+    overflow-x: scroll;
+    /* height: 5rem; */
+    left: 0;
+  }
 }

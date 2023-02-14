@@ -1,5 +1,5 @@
 .mainsection {
-  background: linear-gradient(black, rgb(5, 5, 34), black);
+  background: linear-gradient(black, rgb(0, 0, 0), black);
   color: white;
 }
 /* testimonial page  starts*/
@@ -20,12 +20,13 @@
   position: relative;
 }
 
-.review-title {
+.review-title h2 {
   text-align: center;
   font-size: 7rem;
   text-transform: uppercase;
   margin-bottom: 4rem;
 }
+
 .review .btn {
   background-color: transparent;
   color: black;
@@ -44,3 +45,42 @@
   object-fit: cover;
 }
 /* testimonial page ends */
+@media screen and (max-width: 1100px) {
+  .review-title h2 {
+    font-size: 5rem;
+  }
+  .review {
+    width: 80%;
+
+    padding: 0rem 0rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .review-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+  .review {
+    width: 90%;
+
+    padding: 0rem 0rem;
+  }
+  .testimonials {
+    padding: 5rem 0;
+    background-color: white;
+    color: black;
+  }
+  .imgcontainer img {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .info p {
+    font-size: small;
+  }
+  .review .btn {
+    font-size: 1rem;
+  }
+}
